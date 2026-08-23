@@ -1,0 +1,9 @@
+# Core numerical and machine-learning dependencies
+numpy>=1.21,<2.0
+scipy>=1.7,<1.11
+scikit-learn>=1.0,<1.3
+
+# Install versions compatible with the local Python, OS, and CUDA runtime.
+# See README.md for installation guidance when pip cannot resolve binary wheels.
+torch==1.12.0
+dgl==0.9.1
